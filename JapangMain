@@ -1,0 +1,8 @@
+package japangi;
+
+public class JapangMain {
+	public static void main(String[] args) {
+		JapangiServiceInterface service = new JapangiServiceImple();
+		service.deleteProduct("김형민");
+	}
+}
